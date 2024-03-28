@@ -12,23 +12,16 @@ const About = () => {
             </div>
             <div className='max-w-[1000px] w-full grid sm:grid-cols-2 gap-8 px-4'>
                 <div className='sm:text-right text-4xl font-bold'>
-                    <p>Hi, I'm Jerry, nice to meet you. Please take a look around!</p>
+                    <p>Hi, I'm Jerry, nice to meet you!</p>
                 </div>
                 <div>
-                    <p> My journey in software engineering and machine learning has 
-                        fueled my passion for developing impactful software. Through 
-                        designing web applications that streamline user interactions and 
-                        crafting mobile apps that simplify daily tasks, I've seen firsthand
-                        how targeted solutions can enhance lives. These experiences, from 
-                        enhancing customer service efficiency at a health tech startup to 
-                        predicting chemical affinities for medical research, underscore the 
-                        transformative power of technology. My methodology integrates meticulous 
-                        problem-solving and a deep appreciation for user-centric design, striving 
-                        to produce not just functional but also user-friendly and accessible technology. 
-                        Leveraging team collaboration, agile practices, and a zeal for perpetual 
-                        learning, I'm dedicated to making a significant contribution to the technology 
-                        sector, continuously exploring innovative challenges that drive progress and
-                        personal growth.
+                    <p> My experiences in software engineering and machine learning has fueled my passion for developing impactful software. Through designing web 
+                        applications that streamline user interactions and crafting mobile apps that simplify daily tasks, I've seen firsthand how targeted solutions 
+                        can enhance lives. These experiences, from enhancing customer service efficiency at a health tech startup to predicting chemical affinities for 
+                        medical research, showed me the the transformative power of technology. My methodology is a combination of meticulous problem-solving and focusing 
+                        on user-centric design, striving to produce not just functional but also user-friendly and accessible technology. Leveraging team collaboration, 
+                        agile practices, and a zeal for perpetual learning, I'm dedicated to making a significant contribution to the technology sector, continuously exploring 
+                        innovative challenges that drive progress and personal growth!
                     </p>
                 </div>
             </div>

@@ -1,6 +1,7 @@
 import React from 'react';
 import { HiArrowNarrowRight } from 'react-icons/hi';
 import profilePic from '../assets/jerry_pfp.jpg';
+import {Link} from 'react-scroll'
 
 const Home = () => {
   return (
@@ -17,12 +18,12 @@ const Home = () => {
               I'm an undergraduate at Rice University studying Computer Science.
             </p>
             <div>
-              <button className='text-white group border-2 px-6 py-3 my-2 flex items-center hover:bg-pink-600 hover:border-pink-600'>
+              <Link to="work" smooth={true} duration={500} className='w-40 text-white group border-2 px-6 py-3 my-2 flex items-center justify-center hover:bg-pink-600 hover:border-pink-600 cursor-pointer'>
                 View Work
                 <span className='group-hover:rotate-90 duration-300'>
                   <HiArrowNarrowRight className='ml-3' />
                 </span>
-              </button>
+              </Link>
             </div>
           </div>
 
