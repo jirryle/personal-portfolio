@@ -9,13 +9,6 @@ import { Helmet } from 'react-helmet';
 import ReactGA from 'react-ga4';
 
 function App() {
-  useEffect(() => {
-    // Initialize Google Analytics
-    ReactGA.initialize('G-ZDN4E1VVXK');
-    // Log initial page view
-    ReactGA.send({ hitType: "pageview", page: window.location.pathname });
-  }, []);
-
   return (
     <div>
       <Helmet>
