@@ -12,17 +12,23 @@ const About = () => {
             </div>
             <div className='max-w-[1000px] w-full grid sm:grid-cols-2 gap-8 px-4'>
                 <div className='sm:text-right text-4xl font-bold'>
-                    <p>Hi, I'm Jerry, nice to meet you!</p>
+                    <p>Hi, I'm Jerry Li, nice to meet you!</p>
+                    <br></br>
+                    <p>I am currently a junior at Rice University studying Computer Science.</p>
                 </div>
                 <div>
-                    <p> My experiences in software engineering and machine learning has fueled my passion for developing impactful software. Through designing web 
-                        applications that streamline user interactions and crafting mobile apps that simplify daily tasks, I've seen firsthand how targeted solutions 
-                        can enhance lives. These experiences, from enhancing customer service efficiency at a health tech startup to predicting chemical affinities for 
-                        medical research, showed me the the transformative power of technology. My methodology is a combination of meticulous problem-solving and focusing 
-                        on user-centric design, striving to produce not just functional but also user-friendly and accessible technology. Leveraging team collaboration, 
-                        agile practices, and a zeal for perpetual learning, I'm dedicated to making a significant contribution to the technology sector, continuously exploring 
-                        innovative challenges that drive progress and personal growth!
-                    </p>
+                    <p> As a dedicated software engineer and machine learning enthusiast, I have worked on a wide range of impactful projects. At Apothewell, 
+                        I developed a MERN stack web application that significantly improved customer service efficiency. I also interned at the FDA, where I 
+                        created a highly accurate machine learning model to predict mu-opioid receptor affinity for a large dataset of chemicals. </p>
+                    <br></br>
+                    <p> In addition to my internships, I have worked on personal projects such as Family Tree Maker, a full-stack web application for genealogical 
+                        data management, and Psy.cl, a menstrual cycle tracking mobile app. These projects allowed me to gain experience with various technologies, 
+                        including cloud-based databases, CI/CD pipelines, and containerization. </p>
+                    <br></br>
+                    <p> Throughout my experiences, I have developed a strong foundation in programming languages, frameworks, and tools, such as Java, Python, 
+                        ReactJS, NodeJS, and more. I am passionate about leveraging my skills to create impactful software solutions that solve real-world problems 
+                        and enhance people's lives. As I continue to grow as a software engineer, I am excited to take on new challenges and contribute to the 
+                        ever-evolving technology landscape. </p>
                 </div>
             </div>
         </div>
